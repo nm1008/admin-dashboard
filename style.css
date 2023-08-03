@@ -4,14 +4,46 @@
     box-sizing: border-box;
 }
 
-
 .container{ 
     display: grid;
     grid-template-columns: 20% 80%;
 }
 .sidebar{
-    
     background-color: #0ea5e9;
-    height: 100vh
-    
+    height: 100vh;
+    color: white
 }
+
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100px
+}
+
+.menu-bar{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.list-item-above{
+    margin-bottom: 100px
+}
+
+
+.menu-bar-space{
+    margin-bottom: 20px
+}
+
+.menu-bar svg{
+    width: 25px
+}
+
+.menu-bar h3{
+    font-size: 24px
+}
+
