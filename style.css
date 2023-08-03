@@ -47,3 +47,18 @@
     font-size: 24px
 }
 
+.main{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.projects-container{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.announcement-container{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
