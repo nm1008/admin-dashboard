@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
 }
 
 .container{ 
@@ -25,7 +33,7 @@
 .menu-bar{
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 95px;
     margin-bottom: 20px;
     gap: 20px;
 }
