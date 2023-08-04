@@ -33,7 +33,7 @@ body{
 .menu-bar{
     display: flex;
     align-items: center;
-    margin-left: 95px;
+    margin-left: 50px;
     margin-bottom: 20px;
     gap: 20px;
 }
@@ -52,7 +52,7 @@ body{
 }
 
 .menu-bar h3{
-    font-size: 24px
+    font-size: 20px
 }
 
 .main{
@@ -60,7 +60,7 @@ body{
     grid-template-rows: 20% 80%;
 }
 .projects-container{
-    background-color: gray;
+    background-color: lightgray;
     display: grid;
     grid-template-columns: 80% 20%;
 }
@@ -68,5 +68,92 @@ body{
 .announcement-container{
     display: grid;
     grid-template-rows: 50% 50%;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-left{
+    margin-left: 30px;
+    display: flex
+}
+
+.upper-left svg{
+    margin-top: 10px;
+}
+
+.upper-left input{
+   height: 30px;
+   width: 600px;
+   margin: 20px 0px 0px 30px;
+   border: 1px solid lightgray;
+   border-radius: 15px;
+   background-color: lightgray;
+   padding-left: 10px;
+}
+
+.upper-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.upper-right h4{
+    font-weight: bolder;
+    font-size:
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.bottom-left img{
+    margin-top: 25px;
+    margin-left: 40px
+}
+
+.welcome{
+    margin-top: 30px;
+}
+
+.welcome h5{
+    margin-bottom: 10px;
+}
+.welcome h3{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.bottom-right{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;  
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.bottom-right button{
+    padding: 10px 30px;
+    color: white;
+    background-color: #0ea5e9;
+    border: 1px solid #0ea5e9;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 14px
     
 }
