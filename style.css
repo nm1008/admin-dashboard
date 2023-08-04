@@ -19,27 +19,31 @@ body{
 .sidebar{
     background-color: #0ea5e9;
     height: 100vh;
-    color: white
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .dashboard{
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
-    height: 100px
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px
 }
+
 
 .menu-bar{
     display: flex;
     align-items: center;
-    margin-left: 50px;
     margin-bottom: 20px;
     gap: 20px;
+  
 }
 
 .list-item-above{
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
 
 
@@ -58,11 +62,52 @@ body{
 .main{
     display: grid;
     grid-template-rows: 20% 80%;
+    height: 100vh;
 }
 .projects-container{
     background-color: lightgray;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 75% 25%;
+}
+
+.projects-container h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card-project-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-project{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 180px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    border-left: 8px solid #facc15
+    
+}
+
+.card-project h3{
+    margin-bottom: 10px
+}
+
+.card-project p{
+    margin-bottom: 5px
+}
+
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+   
+    
 }
 
 .announcement-container{
@@ -169,7 +214,6 @@ body{
 
 .card{
     border: 1px solid white;
-    
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -203,9 +247,9 @@ body{
     display: flex;
     justify-items: center;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 0px;
     padding-top: 25px;
-    gap: 10px;
+    gap: 15px;
     margin-left: 35px;
 }
 
